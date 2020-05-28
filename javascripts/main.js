@@ -1,1 +1,6 @@
-console.log('this thing on?')
+import form from './components/form.js';
+const init = () => {
+  form.createForm();
+}
+
+init()
