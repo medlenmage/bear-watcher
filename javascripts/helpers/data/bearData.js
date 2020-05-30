@@ -1,7 +1,15 @@
 const bears = [];
 
-const addBear = (bear) => {
-  bears.push(bear)
+const addBears = () => {
+  const boxvalue = {
+    type: document.getElementById('bearType').value,
+    img: document.getElementById('bearImg').value
+  }
+  bears.push(boxvalue)
 }
 
-export default { addBear }
+const getBear = () => {
+  return bears;
+}
+
+export default { addBears, getBear }

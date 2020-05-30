@@ -1,5 +1,5 @@
 body {
-  background-color: brown;
+  background-color: white;
 }
 
 .form-bar {
@@ -7,6 +7,5 @@ body {
 }
 
 .bear-form {
-  border: 2px solid white;
   width: 33%;
 }
