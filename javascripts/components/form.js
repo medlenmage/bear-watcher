@@ -17,6 +17,7 @@ const createForm = () => {
   `;
 
   utils.printToDom('#form-bear', domString)
+  
 }
 
 export default { createForm }
