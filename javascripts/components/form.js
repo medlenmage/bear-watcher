@@ -14,10 +14,9 @@ const createForm = () => {
   domString += `
   <form>
     <div class="form-group">
-      <label for="exampleInputEmail1">Bears Enter Here</label>
-      <input class="form-control form-bar" id="bearType" aria-describedby="emailHelp" placeholder="Your Bear">
-      <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-      <input class="form-control form-bar" id="bearImg" aria-describedby="emailHelp" placeholder="Bear Url Here">
+      <label for="exampleInputEmail1" class="headingForm">Bears Enter Here</label>
+      <input class="form-control form-bar one" id="bearType" aria-describedby="emailHelp" placeholder="Your Bear">
+      <input class="form-control form-bar two" id="bearImg" aria-describedby="emailHelp" placeholder="Bear Url Here">
     </div>
     <button type="submit" class="btn btn-primary" id="add-to-bear">Submit</button>
   </form>
