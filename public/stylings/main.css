@@ -1,0 +1,112 @@
+body {
+  background-color: white;
+}
+
+h1 {
+  text-align: center;
+  color: #766153;
+}
+
+h5 {
+  text-align: center;
+  color: #766153;
+  font-family: 'Balsamiq Sans', cursive;;
+}
+
+.headingForm {
+  font-family: 'Balsamiq Sans', cursive;;
+  font-weight: bold;
+  color: #373d20;
+  margin-left: 135px;
+}
+
+.btn {
+  margin-left: 160px;
+  margin-top: 25px;
+  background: transparent;
+  border: none;
+  color: #373d20;
+}
+
+.btn:hover {
+  background-color: #eff1ed;
+  color: #373d20;
+}
+
+.form-bar {
+  width: 400px;
+  background: transparent;
+  border: none;
+  text-align: center;
+}
+
+.form-bar:focus {
+  background: transparent;
+  border: none;
+  color: #eff1ed;
+}
+
+.bear-form {
+  width: 33%;
+}
+
+.page-header {
+  font-family: 'Balsamiq Sans', cursive;;
+}
+
+.form-container {
+  position: relative;
+  width: 50%;
+  margin: auto;
+}
+
+.bear-form {
+  position: absolute;
+  float: left;
+  left: 275px;
+  top: 100px;
+  z-index: 1000;
+}
+
+.bear-background {
+  display: block;
+  margin: auto;
+  height: 500px;
+  width: 700px;
+}
+
+.one {
+  margin-top: 25px;
+}
+
+.two {
+  margin-top: 25px;
+}
+
+::placeholder {
+  color: #eff1ed !important;
+}
+
+.bear-cards {
+  margin-top: 25px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  display: block;
+  margin: auto;
+  width: 30%;
+  border: 2px solid #bcbd8b;
+}
+
+.card-text {
+  font-family: 'Libre Baskerville', serif;
+  color: #717744;
+}
+ .bearImg {
+   display: block;
+   margin: auto;
+   padding-left: 10px;
+   padding-right: 10px;
+ }
